@@ -24,16 +24,16 @@
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
     <!-- Workaround for devices with broken keyboards -->
-    <bool name="config_forceDisableHardwareKeyboard">true</bool>
+    <bool name="config_forceDisableHardwareKeyboard">false</bool>
 
     <!-- Boolean to enable stylus gestures -->
     <!--<bool name="config_stylusGestures">true</bool>-->
-    
+
    <bool name="config_allowAllRotations">true</bool>
    <integer name="config_lidOpenRotation">-1</integer>
    <integer name="config_deskDockKeepsScreenOn">0</integer>
    <integer name="config_lidNavigationAccessibility">1</integer>
-   
+
     <!-- An Array of "[ConnectivityManager connectionType],
          [# simultaneous connection types]"  -->
     <string-array name="radioAttributes">
