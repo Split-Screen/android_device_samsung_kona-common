@@ -63,6 +63,5 @@ BOARD_SEPOLICY_UNION += \
     sysinit.te \
     system.te \
     ueventd.te \
-    untrusted_app.te \
     wpa_supplicant.te
 
